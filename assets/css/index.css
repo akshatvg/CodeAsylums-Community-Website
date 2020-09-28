@@ -350,7 +350,7 @@ i#prev {
 
 /* Footer */
 .page-footer {
-    background: #D64763;
+    background-image: linear-gradient(to right, rgba(253, 100, 131, 0.712), rgba(248, 69, 105, 0.712), #D64763);
     color: white;
 }
 
