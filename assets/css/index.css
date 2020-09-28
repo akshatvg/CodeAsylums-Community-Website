@@ -7,12 +7,12 @@ body {
     font-family: 'Raleway', sans-serif;
     overflow: -moz-scrollbars-none;
     -ms-overflow-style: none;
-    color: black;
+    color: white;
     background-image: url("../img/background.png");
     background-position: center center;
     background-size: cover;
     height: 100%;
-    background-color: #F3C89A;
+    background-color: #293648;
     scroll-behavior: smooth;
 }
 
@@ -33,7 +33,7 @@ button {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background-color: #F3C89A;
+    background-color: #293648;
     -webkit-box-shadow: 0 24px 64px rgba(0, 0, 0, 0.24);
     box-shadow: 0 24px 64px rgba(0, 0, 0, 0.24);
     border-radius: 16px;
@@ -54,7 +54,7 @@ button {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
-    background-color: #F3C89A;
+    background-color: #293648;
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -180,21 +180,22 @@ button:focus {
 
 /* Navbar */
 .nav-wrapper {
-    background-image: linear-gradient(to right, rgba(253, 100, 131, 0.712), rgba(248, 69, 105, 0.712), #D64763);
+    background-color: #141C25;
 }
 
 /* Active Sidebar */
 #activeSide {
-    color: #D64763;
+    color: white;
 }
 
 .sidenav {
-    border-right: 15px solid #D64763;
-    background: #F3C89A;
+    border-right: 15px solid #141C25;
+    background: #293648;
+    color: white;
 }
 
 .sidenav-alt-bar {
-    background: rgb(253, 189, 120);
+    background: #293648b4;
 }
 
 #activeSide::after {
@@ -206,22 +207,22 @@ button:focus {
     top: 15px;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 20px solid #D64763;
+    border-right: 20px solid rgb(20, 28, 37);
 }
 
 /* Divider */
 .divider {
-    border: 1px solid #D64763;
+    border: 1px solid #141C25;
     width: 100%;
 }
 
 .border-bottom-md {
-    border-bottom: 2px solid #D64763;
+    border-bottom: 2px solid #141C25;
     width: 175px;
 }
 
 .border-bottom-sm {
-    border-bottom: 2px solid #D64763;
+    border-bottom: 2px solid #141C25;
     width: 120px;
 }
 
@@ -332,7 +333,7 @@ i#prev {
 /* Button(s): speakOut */
 .btn-ca,
 .btn-ca:hover {
-    background-color: #D64763;
+    background-color: #141C25;
     color: white;
     border-radius: 30px;
     min-width: 200px;
@@ -351,12 +352,12 @@ i#prev {
 
 /* Footer */
 .page-footer {
-    background-image: linear-gradient(to right, rgba(253, 100, 131, 0.712), rgba(248, 69, 105, 0.712), #D64763);
+    background-color: #141C25;
     color: white;
 }
 
 #page-footer {
-    background: #D64763;
+    background: #141C25;
     color: white;
 }
 
@@ -383,18 +384,18 @@ h3 {
 }
 
 .heading-color {
-    color: rgb(27, 46, 57);
+    color: rgba(245, 245, 245, 0.925);
     text-decoration: underline;
-    text-decoration-color: #D64763;
-    -moz-text-decoration-color: #D64763;
+    text-decoration-color: rgba(146, 146, 146, 0.664);
+    -moz-text-decoration-color: rgba(146, 146, 146, 0.664);
     font-family: 'Oswald', sans-serif;
 }
 
 .heading-color-alt {
     color: whitesmoke;
     text-decoration: underline;
-    text-decoration-color: #F3C89A;
-    -moz-text-decoration-color: #F3C89A;
+    text-decoration-color: #293648;
+    -moz-text-decoration-color: #293648;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -477,27 +478,32 @@ bounce {
 
 /* Pink Sections */
 #stats {
-    background-image: linear-gradient(to left, rgba(248, 66, 102, 0.712), rgba(248, 69, 105, 0.712), rgba(214, 71, 100, 0.795));
+    background-color: #141C25;
 }
 
 #milestones {
-    background-image: linear-gradient(to right, rgba(248, 66, 102, 0.712), rgba(248, 69, 105, 0.712), rgba(214, 71, 100, 0.795));
+    background-color: #141C25;
 }
 
 /* Collapsible */
 .collapsible-header {
-    background-color: #F3C89A;
+    background-color: #293648;
     font-weight: bolder;
-    border-color: #F3C89A;
+    border-color: #293648;
     border-bottom-color: #ffffff;
 }
 
 .collapsible-body {
-    background-image: linear-gradient(to left, rgba(248, 66, 102, 0.459), rgba(248, 69, 105, 0.445), rgba(214, 71, 100, 0.507));
+    background-color: #141C25;
     font-weight: bolder;
-    border-color: #F3C89A;
+    border-color: #293648;
 }
 
 .collapsible {
-    border-color: #F3C89A;
+    border-color: #293648;
+}
+
+.frameworks {
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius: 15px;
 }
