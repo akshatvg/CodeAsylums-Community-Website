@@ -389,6 +389,14 @@ h3 {
     font-family: 'Oswald', sans-serif;
 }
 
+.heading-color-alt {
+    color: whitesmoke;
+    text-decoration: underline;
+    text-decoration-color: #F3C89A;
+    -moz-text-decoration-color: #F3C89A;
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Animation Defaults */
 .animated {
     -webkit-animation-name: bounceIn;
@@ -464,4 +472,31 @@ bounce {
     animation-name: bounce;
     -webkit-transform-origin: center bottom;
     transform-origin: center bottom
+}
+
+/* Pink Sections */
+#stats {
+    background-image: linear-gradient(to left, rgba(248, 66, 102, 0.712), rgba(248, 69, 105, 0.712), rgba(214, 71, 100, 0.795));
+}
+
+#milestones {
+    background-image: linear-gradient(to right, rgba(248, 66, 102, 0.712), rgba(248, 69, 105, 0.712), rgba(214, 71, 100, 0.795));
+}
+
+/* Collapsible */
+.collapsible-header {
+    background-color: #F3C89A;
+    font-weight: bolder;
+    border-color: #F3C89A;
+    border-bottom-color: #ffffff;
+}
+
+.collapsible-body {
+    background-image: linear-gradient(to left, rgba(248, 66, 102, 0.459), rgba(248, 69, 105, 0.445), rgba(214, 71, 100, 0.507));
+    font-weight: bolder;
+    border-color: #F3C89A;
+}
+
+.collapsible {
+    border-color: #F3C89A;
 }
