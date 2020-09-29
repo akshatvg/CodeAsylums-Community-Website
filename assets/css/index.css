@@ -226,7 +226,7 @@ button:focus {
     width: 120px;
 }
 
-/* Heading */
+/* Bolder */
 .bolder {
     font-weight: bolder;
 }
@@ -476,13 +476,17 @@ bounce {
     transform-origin: center bottom
 }
 
-/* Pink Sections */
+/* Dark Sections */
 #stats {
-    background-color: #141C25;
+    background-color: rgba(20, 28, 37, 0.671);
 }
 
 #milestones {
-    background-color: #141C25;
+    background-color: rgba(20, 28, 37, 0.671);
+}
+
+#mentors {
+    background-color: rgba(20, 28, 37, 0.671);
 }
 
 /* Collapsible */
@@ -503,7 +507,13 @@ bounce {
     border-color: #293648;
 }
 
+/* Frameworks */
 .frameworks {
     background-color: rgba(255, 255, 255, 0.404);
-    border-radius: 15px;
+    border-radius: 10px;
+}
+
+/* Rounded Image */
+.rounded-img {
+    border-radius: 50%;
 }
