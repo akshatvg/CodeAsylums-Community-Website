@@ -330,7 +330,7 @@ i#prev {
     border-radius: 10px;
 }
 
-/* Button(s): speakOut */
+/* Button(s): CA */
 .btn-ca,
 .btn-ca:hover {
     background-color: #141C25;
@@ -342,10 +342,10 @@ i#prev {
     max-height: 55px;
 }
 
-.btn-actions-vc,
-.btn-actions-vc:hover,
-.btn-actions-vc:focus {
-    background-color: rgba(0, 0, 0, 0.548);
+.btn-action,
+.btn-action:hover,
+.btn-action:focus {
+    background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 10px;
 }
@@ -489,6 +489,10 @@ bounce {
     background-color: rgba(20, 28, 37, 0.671);
 }
 
+.bg-custom {
+    background-color: rgba(20, 28, 37, 0.671);
+}
+
 /* Collapsible */
 .collapsible-header {
     background-color: #293648;
@@ -516,4 +520,11 @@ bounce {
 /* Rounded Image */
 .rounded-img {
     border-radius: 50%;
+}
+
+.rounded-img-team {
+    border-radius: 50%;
+    height: 230px;
+    margin-top: 30px;
+    overflow: hidden;
 }
